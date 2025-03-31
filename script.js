@@ -34,7 +34,7 @@ function formatarTempo(segundos) {
     return `${String(minutos).padStart(2, '0')}:${String(segundosRestantes).padStart(2, '0')}`;
 }
 creditosButton.addEventListener('click', () => {
-    alert('Front-end: Rodrigo - Bydrak\nBack-end: Rodrigo - Tron Wuel\nIdeia de fazer foi de alguém do Discord (falar com um dos Rodrigos)');
+    alert('Front-end: Rodrigo - Bydrak\nPaleta de cores - Livia - Penelope Tankosa\nBack-end: Rodrigo - Tron Wuel\nIdeia de fazer foi de alguém do Discord (falar com um dos Rodrigos)');
 });
 
 manaAtualInput.addEventListener('input', atualizarResultados);
