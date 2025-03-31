@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de Mana Tibia</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Calculadora de Mana Tibia</h1>
+    <div>
+        <label for="manaAtual">Mana Atual:</label>
+        <input type="number" id="manaAtual" value="0">
+    </div>
+    <div>
+        <label for="manaMaxima">Mana Máxima:</label>
+        <input type="number" id="manaMaxima" value="395">
+    </div>
+    <div>
+        <label for="manaRuna">Mana por Runa:</label>
+        <input type="number" id="manaRuna" value="100">
+    </div>
+    <div>
+        <label for="runasCriadas">Runas Criadas:</label>
+        <input type="number" id="runasCriadas" value="0">
+    </div>
+    <div id="resultados">
+        <p>Mana Faltante: <span id="manaFaltante">0</span></p>
+        <p>Tempo para Regenerar: <span id="tempoRegeneracao">00:00</span></p>
+        <p>Mana Gasta em Runas: <span id="manaGastaRunas">0</span></p>
+        <p>Tempo Gasto em Runas: <span id="tempoRunas">00:00</span></p>
+        <p><a id="timerLink" href="#" target="_blank"></a></p>
+    </div>
+    <button id="creditos">Créditos</button>
+    <script src="script.js"></script>
+</body>
+</html>
